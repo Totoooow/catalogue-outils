@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation sur l'Intelligence Artificielle</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        .tool {
+            margin-bottom: 1.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+
+        .subsection {
+            margin-top: 1rem;
+            padding-left: 1rem;
+            border-left: 4px solid #ccc;
+        }
+
+        .subsection h3 {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Documentation sur l'Intelligence Artificielle</h1>
+        <nav>
+            <ul>
+                <li><a href="#definition">Définition</a></li>
+                <li><a href="#utilisations">Utilisations</a></li>
+                <li><a href="#faits">Faits Intéressants</a></li>
+                <li><a href="#catalogue">Catalogue d'Outils</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="definition">
+        <h2>Qu'est-ce que l'Intelligence Artificielle ?</h2>
+        <p>L'intelligence artificielle (IA) désigne la simulation des processus d'intelligence humaine par des machines, en particulier par des systèmes informatiques. Ces processus incluent l'apprentissage (acquisition d'informations et de règles d'utilisation), le raisonnement (utilisation des règles pour atteindre des conclusions) et l'auto-correction.</p>
+    </section>
+
+    <section id="utilisations">
+        <h2>À quoi sert l'IA ?</h2>
+        <div class="subsection">
+            <h3>1. Assistance au quotidien</h3>
+            <p>Les assistants virtuels comme Alexa ou Google Assistant utilisent l'IA pour comprendre et répondre aux commandes vocales.</p>
+        </div>
+        <div class="subsection">
+            <h3>2. Santé</h3>
+            <p>Détection des maladies grâce à l'analyse des données médicales, aide au diagnostic et développement de médicaments.</p>
+        </div>
+        <div class="subsection">
+            <h3>3. Créativité</h3>
+            <p>Création artistique, musique, écriture et même développement de jeux vidéo.</p>
+        </div>
+    </section>
+
+    <section id="faits">
+        <h2>Faits Intéressants sur l'IA</h2>
+        <ul>
+            <li>L'IA a été conceptualisée pour la première fois dans les années 1950.</li>
+            <li>Les algorithmes d'IA peuvent apprendre à jouer à des jeux vidéo mieux que des humains.</li>
+            <li>ChatGPT, basé sur GPT, est l'un des modèles les plus connus pour la génération de texte.</li>
+            <li>Des technologies comme DALL·E génèrent des images à partir de simples descriptions textuelles.</li>
+        </ul>
+    </section>
+
+    <section id="catalogue">
+        <h2>Catalogue d'Outils Pratiques</h2>
+        <div class="tool">
+            <h3><a href="https://openai.com/chatgpt">ChatGPT</a></h3>
+            <p>IA conversationnelle puissante pour générer du contenu.</p>
+        </div>
+        <div class="tool">
+            <h3><a href="https://www.canva.com">Canva</a></h3>
+            <p>Outil de design graphique avec fonctionnalités IA.</p>
+        </div>
+        <div class="tool">
+            <h3><a href="https://vfx.productioncrate.com">Footerage</a></h3>
+            <p>Bibliothèque de textures et d'animations gratuites.</p>
+        </div>
+        <div class="tool">
+            <h3><a href="https://www.notion.so">Notion</a></h3>
+            <p>Gestion de projets et organisation avec IA intégrée.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Pour suggérer un ajout ou poser une question, envoyez un email : <a href="mailto:votreemail@exemple.com">votreemail@exemple.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Documentation sur l'IA</p>
+    </footer>
+</body>
+</html>
